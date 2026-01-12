@@ -1,4 +1,4 @@
-package com.similar_products.recommend.rest;
+package com.similar_products.recommend.adapter;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
