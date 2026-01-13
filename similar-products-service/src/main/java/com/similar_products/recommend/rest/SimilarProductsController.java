@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/product")
 @RequiredArgsConstructor
-public class RecommendationsController {
+public class SimilarProductsController {
     private final ProductServiceAdapter productServiceAdapter;
 
     @GetMapping("/{productId}/similar")
